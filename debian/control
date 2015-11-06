@@ -1,0 +1,19 @@
+Source: lua-mediator
+Maintainer: António P. P. Almeida <appa@perusio.net> 
+Uploaders: António P. P. Almeida <appa@perusio.net>
+Section: interpreters
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               dh-lua
+Standards-Version: 3.9.6
+Vcs-Browser: https://github.com/Olivine-Labs/mediator_lua
+Vcs-Git: git://git@github.com:Olivine-Labs/mediator_lua.git
+Homepage: https://github.com/Olivine-Labs/mediator_lua
+
+Package: lua-mediator
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: Lua implementation of the mediator pattern.
+ Utility class for subscribing to events and sending 
+ data to channels.

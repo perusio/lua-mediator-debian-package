@@ -1,0 +1,6 @@
+lua-mediator (1.1.1-perusio.1.0) UNRELEASED; urgency=medium
+
+  * Initial debian packaging.
+
+ -- António P. P. Almeida <appa@perusio.net>  Thu, 05 Nov 2015 16:29:55 +0100
+
